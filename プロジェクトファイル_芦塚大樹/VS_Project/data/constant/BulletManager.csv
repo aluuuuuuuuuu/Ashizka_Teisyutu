@@ -1,0 +1,6 @@
+No.,定数名,型名,定数の値,説明
+1,GRAVITY,_FLOAT,0.005f,弾にかかる重力
+2,SPEED,_FLOAT,4.5f,弾速
+3,DEAD_LINE,_FLOAT,200.0f,弾を削除するライン
+4,GRAPPLE_LIFE_TIME,_INT,80,グラップルが生存する時間
+5,RADIUS,_FLOAT,3.0f,弾の当たり判定の半径

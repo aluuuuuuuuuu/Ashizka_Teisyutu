@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{2dc8f0bd-f682-4fa8-9f8b-b0cd2969bfce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4d231b4d-dae8-402e-9582-eec57f50a43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{65641156-4b13-4c64-8ca2-3bb239f65584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{78252625-8d39-43c0-a4b7-3114097cb089}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneBase.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneSelect.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneTest.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneTitle.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Application.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Components.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Constant.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Input.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\BulletBase.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NormalBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\PlayerCamera.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\BulletManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\MapBulletCollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\PlayerManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\StageCollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\StageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\AnyPushButton.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Crown.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Logo.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SkyDome.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SoundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\WedgewormManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GameFlowManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CharacterSelectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\MenuManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NumUtility.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Wedgeworm.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SelectFinger.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ResultUi.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ResultLogo.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ResultCharacter.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\MenuButton.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GrapplerBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CharacterCard.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\BombBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneMenu.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneResult.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneCredit.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ScenePause.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ScenePve.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ScenePvp.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneSelectMode.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneSelectNum.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SceneTutorial.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CreditCharacter.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\FallCharactor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ItemBase.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ItemSpeedUp.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\PlayerUi.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SelectModeUi.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\SelectUI.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\TitlePlayer.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\EffectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ItemManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\MenuCollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\TutorialManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\MyEffect.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\PlayerBulletCollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="h\SceneBase.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneSelect.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneTest.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneTitle.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Application.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Components.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Constant.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Singleton.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Vec3.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Vec2.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\BulletBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NormalBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\PlayerCamera.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\BulletManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\MapBulletCollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\PlayerManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\StageCollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\StageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\AnyPushButton.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Crown.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Logo.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SkyDome.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\CollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SoundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\WedgewormManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GameFlowManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\CharacterSelectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\MenuManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NumUtility.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\BombBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Wedgeworm.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SelectFinger.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ResultUi.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ResultLogo.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ResultCharacter.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GrapplerBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\MenuButton.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\CharacterCard.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneMenu.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneResult.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneCredit.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ScenePause.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ScenePve.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ScenePvp.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneSelectMode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneSelectNum.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SceneTutorial.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="h\TutorialManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\PlayerBulletCollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\MenuCollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\EffectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ItemManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="h\MyMath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\MyEffect.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="h\CreditCharacter.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\FallCharactor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ItemBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\ItemSpeedUp.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\PlayerUi.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SelectModeUi.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\SelectUI.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\TitlePlayer.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="h\resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\constant\Player.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Tama.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Application.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\CharacterCard.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Collision.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Direction.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Enemy.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Input.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\BulletManager.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\PlayerCamera.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\SceneSelect.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\SceneTitle.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Stage.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\SubActor.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\ScenePause.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\ScenePve.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\SceneCredit.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\ScenePvp.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\SceneResult.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\SceneSelectMode.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\SceneSelectNum.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\CharactorSelectManager.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\EffectManager.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\ItemManager.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\MenuManager.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\TutorialManager.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\CreditCharacotr.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Crown.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\FallCharactor.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="data\constant\Item.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

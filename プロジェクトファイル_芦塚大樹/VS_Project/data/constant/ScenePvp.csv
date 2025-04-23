@@ -1,0 +1,6 @@
+No.,定数名,型名,定数の値,説明
+1,NUM_SIZE,_FLOAT,0.5f,数字表示の1文字のサイズ
+2,NUM_POS_X,_FLOAT,734.0f,数字表示座標X値
+3,NUM_POS_Y,_FLOAT,100.0f,数字表示座標Y値
+4,CAMERA_NEAR,_FLOAT,1.0f,カメラのニア値
+5,CAMERA_FAR,_FLOAT,1000.0f,カメラのファー値

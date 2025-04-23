@@ -1,0 +1,9 @@
+No.,定数名,型名,定数の値,説明
+1,DOWN_START_FRAME,_INT,600,クレジットが流れ始めるフレーム数
+2,IMAGE_HEIGHT,_INT,3500,クレジット画像の高さ
+3,SOUND_END_FRAME,_INT,3960,BGMが終わるフレーム数
+4,ALL_IN_FRAME,_INT,2500,すべてのキャラクターが出てくるフレーム数
+5,POP_CHARACOTR_ONE_FRAME,_INT,600,1体目のキャラクターが出てくるフレーム数
+6,POP_CHARACOTR_TWO_FRAME,_INT,1800,2体目のキャラクターが出てくるフレーム数
+7,POP_CHARACOTR_THREE_FRAME,_INT,2400,3体目のキャラクターが出てくるフレーム数
+8,POP_CHARACOTR_FOUR_FRAME,_INT,3000,4体目のキャラクターが出てくるフレーム数

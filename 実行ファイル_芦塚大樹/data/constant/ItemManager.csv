@@ -1,0 +1,10 @@
+No.,定数名,型名,定数の値,説明
+1,RANDAM_MIN,_INT,20,ランダム値の最小
+2,RANDAM_MAX,_INT,180,ランダム値の最大
+3,SPAWN_Y,_INT,100,アイテムを出す高さ
+4,SPEED_UP_SCALE,_FLOAT,17.0f,スピードアップアイテムの拡大率
+5,SPEED_UP_SPEED,_FLOAT,-0.5f,スピードアップアイテムの落下速度
+6,STOP_POS_2,_FLOAT,12.0f,2ブロック目に落下した際の停止位置
+7,STOP_POS_1,_FLOAT,2.0fブロック目に落下した際の停止位置
+8,LIFE_TIME,_INT,10,アイテムが無効化されてから消滅するまでのフレーム数
+9,DEAD_LINE,_INT,-100,アイテムが消滅する高さ

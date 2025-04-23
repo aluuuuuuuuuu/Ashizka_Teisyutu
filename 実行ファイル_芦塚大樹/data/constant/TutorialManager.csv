@@ -1,0 +1,6 @@
+No.,定数名,型名,定数の値,説明
+1,CLEAR_SCALE,_FLOAT,10.0f,クリア画像の拡大率
+2,GUIDE_POS_Y,_INT,200,ガイド表示座標Y
+3,CLEAR_SCALE_RATE,_FLOAT,0.5f,クリア画像の拡大速度
+4,STICK_DEAD_ZONE,_FLOAT,5000.0f,スティックのデッドゾーン
+5,BOMB_COUNT,_INT,2,爆弾を発射する規定数

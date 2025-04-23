@@ -1,0 +1,5 @@
+No.,定数名,型名,定数の値,説明
+1,SLIDE_OUT_START_X,_INT,-300,スライドが外れる初期位置X値
+2,SLIDE_OUT_START_Y,_INT,0,スライドが外れる初期位置Y値
+3,SLIDE_IN_END_X,_INT,-3840,スライドインが終わる座標X
+4,SLIDE_MOVE_SCALE,_FLOAT,80.0f,スライドが移動する速度

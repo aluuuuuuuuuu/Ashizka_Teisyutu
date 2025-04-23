@@ -1,0 +1,4 @@
+No.,定数名,型名,定数の値,説明
+1,CROWN_SPEED,_INT,2,王冠を点滅させる速度
+2,CROWN_EXRATE,_FLOAT,0.2f,王冠の拡大率
+3,CROWN_ANGLE,_FLOAT,-0.5f,王冠の角度

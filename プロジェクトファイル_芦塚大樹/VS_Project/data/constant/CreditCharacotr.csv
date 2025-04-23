@@ -1,0 +1,12 @@
+No.,定数名,型名,定数の値,説明
+1,CHARACTOR_SCALE,_FLOAT,0.05f,キャラのスケール
+2,CHARACTOR_ANGLE_X,_FLOAT,0.0f,キャラのアングルX
+3,CHARACTOR_ANGLE_Y,_FLOAT,1.5708f,キャラのアングルY
+4,CHARACTOR_ANGLE_Z,_FLOAT,0.0f,キャラのアングルZ
+5,CHARACTOR_POS_X,_FLOAT,120.0f,キャラのポジションX
+6,CHARACTOR_POS_Y,_FLOAT,240.0f,キャラのポジションY
+7,CHARACTOR_POS_Z,_FLOAT,15.0f,キャラのポジションZ
+8,ANIM_IDLE,_INT,0,アニメーションアイドルのタグ
+9,ANIM_DANCE,_INT,1,アニメーションダンスのタグ
+10,ANIM_BLEND_RATE,_FLOAT,0.1f,アニメーションのブレンドレート
+11,ANIM_SPEED,_FLOAT,0.5f,アニメーションの再生速度

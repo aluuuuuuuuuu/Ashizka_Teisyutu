@@ -1,0 +1,10 @@
+No.,定数名,型名,定数の値,説明
+1,MAX_PARTICLE,_INT,8000,最大パーティクル数
+2,NORMAL_BULLET_SIZE,_FLOAT,2.0f,通常弾のエフェクトサイズ
+3,BOMB_BULLET_SIZE,_FLOAT,5.0f,爆弾のエフェクトサイズ
+4,GRAPPLE_BULLET_SIZE,_FLOAT,5.0f,グラップル弾のエフェクトサイズ
+5,BLOCK_DESTROY_SIZE,_FLOAT,5.0f,ブロック破壊のエフェクトサイズ
+6,JUMP_SIZE,_FLOAT,5.0f,ジャンプのエフェクトサイズ
+7,WIN_SIZE,_FLOAT,105f,勝利のエフェクトサイズ
+8,SHOT_DOWN_SIZE,_FLOAT,10.0f,ヒットのエフェクトサイズ
+9,SPEED_UP_SIZE,_FLOAT,10.0f,スピードアップのエフェクトサイズ
