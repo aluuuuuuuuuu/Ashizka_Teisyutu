@@ -278,7 +278,7 @@
     <None Include="data\constant\CharacterCard.csv" />
     <None Include="data\constant\CharactorSelectManager.csv" />
     <None Include="data\constant\Collision.csv" />
-    <None Include="data\constant\CreditCharacotr.csv" />
+    <None Include="data\constant\CreditCharactor.csv" />
     <None Include="data\constant\Crown.csv" />
     <None Include="data\constant\Direction.csv" />
     <None Include="data\constant\EffectManager.csv" />

@@ -493,7 +493,7 @@
     <None Include="data\constant\TutorialManager.csv">
       <Filter>リソース ファイル</Filter>
     </None>
-    <None Include="data\constant\CreditCharacotr.csv">
+    <None Include="data\constant\CreditCharactor.csv">
       <Filter>リソース ファイル</Filter>
     </None>
     <None Include="data\constant\Crown.csv">
